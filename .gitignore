@@ -1,49 +1,40 @@
-# Python-generated files
+# macOS
+.DS_Store
+
+# idea
+.idea
+
+# Python
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
-
-# Virtual environments
-.venv
-
-
-/log/
-/cache/
-/test/
-/local_config/
-
-# Python bytecode
 *.pyc
 *.pyo
-
-# 运行时生成的文件
-*.log
-*.pot
-
-# IDE 或编辑器配置文件
-.idea/*
-.vscode/
-*.swp
-
-# Python 虚拟环境
+*.pyd
 venv/
+.venv/
 env/
-*.env
+*.db
 
-# 系统生成的文件
-.DS_Store
-Thumbs.db
+# Node
+node_modules/
 
-# 依赖管理工具产生的文件
-Pipfile.lock
-poetry.lock
-
-# Jupyter Notebook checkpoints
+# Jupyter
 .ipynb_checkpoints/
 
+# VSCode
+.vscode/
+
+# 数据和模型
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.log
+*.csv
+*.tsv
+*.zip
+*.tar
+*.tar.gz
+
 # 临时文件
-*.bak
 *.tmp
+*.swp 
